@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade">
+	<name>com_dpattachments</name>
+	<author>Digital Peak</author>
+	<creationDate>23 Mar 2023</creationDate>
+	<copyright>(C) 2013 Digital Peak GmbH</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@digital-peak.com</authorEmail>
+	<authorUrl>joomla.digital-peak.com</authorUrl>
+	<version>5.1.5</version>
+	<description>COM_DPATTACHMENTS_XML_DESCRIPTION</description>
+	<namespace path="src">DigitalPeak\Component\DPAttachments</namespace>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	<scriptfile>script.php</scriptfile>
+	<files folder="site">
+		<folder>language</folder>
+		<folder>layouts</folder>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+	<media destination="com_dpattachments" folder="media">
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</media>
+	<administration>
+		<menu>COM_DPATTACHMENTS</menu>
+		<submenu>
+			<menu link="option=com_dpattachments&amp;view=attachments" view="attachments">COM_DPATTACHMENTS_ATTACHMENTS</menu>
+			<menu link="option=com_fields&amp;context=com_dpattachments.attachment">JGLOBAL_FIELDS</menu>
+			<menu link="option=com_fields&amp;view=groups&amp;context=com_dpattachments.attachment">JGLOBAL_FIELD_GROUPS</menu>
+		</submenu>
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<folder>forms</folder>
+			<folder>language</folder>
+			<folder>services</folder>
+			<folder>sql</folder>
+			<folder>src</folder>
+			<folder>tmpl</folder>
+			<folder>vendor</folder>
+		</files>
+	</administration>
+</extension>

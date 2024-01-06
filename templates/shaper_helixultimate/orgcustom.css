@@ -1,0 +1,1254 @@
+/* mouse-memoirs-regular - latin */
+@font-face {
+  font-family: 'Mouse Memoirs';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/mouse-memoirs-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/mouse-memoirs-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/mouse-memoirs-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/mouse-memoirs-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/mouse-memoirs-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/mouse-memoirs-v13-latin-regular.svg#MouseMemoirs') format('svg'); /* Legacy iOS */
+}
+
+.home_articles,
+.home_header {
+  font-size: 0.7em;      
+}
+
+.site-menu{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.site-menu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.site-menu img {
+  max-height: 60px;
+  width: auto;
+  border: 1px dotted black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.home_wohnen,
+.home_verein,
+.home_garten,
+.home_repair,
+.home_rikscha,
+.home_biotop{
+  max-height: 150px;
+  width: auto;
+  font-size: 0.7em;
+}
+
+
+.site-menu img {
+  max-height: 30px;
+  width: auto;
+  border: 1px dotted black;
+}
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .home_wohnen,
+.home_verein,
+.home_garten,
+.home_repair,
+.home_rikscha,
+.home_biotop{
+  max-height: 150px;
+  width: auto;
+  font-size: 0.7em;
+}
+
+
+.site-menu img {
+  max-height: 30px;
+  width: auto;
+  border: 1px dotted black;
+}
+  
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .home_wohnen,
+.home_verein,
+.home_garten,
+.home_repair,
+.home_rikscha,
+.home_biotop{
+  max-height: 150px;
+  width: auto;
+  font-size: 0.7em;
+}
+
+
+.site-menu img {
+  max-height: 30px;
+  width: auto;
+  border: 1px dotted black;
+}
+  
+}
+
+
+@media only screen and (min-width: 993px) {
+  .home_wohnen,
+.home_verein,
+.home_garten,
+.home_repair,
+.home_rikscha,
+.home_biotop{
+  max-height: 150px;
+  width: auto;
+  font-size: 0.7em;
+}
+
+
+.site-menu img {
+  max-height: 30px;
+  width: auto;
+  border: 1px dotted black;
+}
+  
+}
+
+    
+
+.partner-menu img {
+ height:40px; /* you can use % */
+ width: auto;
+ margin: 5px;
+ border: 1px solid;
+}
+.partner-menu {
+    background-color: #ccc;
+}
+
+
+#sp-sitemenue {
+  display: none;
+}
+.biotop_slides .sppb-carousel-inner{
+ max-height: 800px;
+ max-width: 800px;
+}
+
+body {
+  background: #ffffff;
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif, !importand;
+}
+
+h3.sppb-addon-title {
+  font-size: 1.2em !important;
+  color: black;
+  font-weight: bold;
+}
+
+.category-module_termine {
+  display: flex;  
+  flex-direction: column;
+  border: 1px dotted #000;
+  background-color: #ffffff;  
+  font-weight: bold !important;
+}
+
+.category-module_termine li {
+   list-style: none;
+}
+a.mod-articles-category-title {
+  font-size: 0.8em;
+  text-decoration: none; 
+}
+
+
+.mod-articles-category-title {
+  font-size: 3em;
+}
+.article-full-image img{
+  max-height: 250px;
+}
+
+.custom_home {
+  float: right;
+  padding-right: 20px;
+}
+.customrep-logo,
+.customrik-logo,
+.customgdv-logo{
+  max-width: 90px;
+}
+
+.article-intro-image {
+  max-width: 250px;
+  padding:10px;
+  margin-right: 0px !important;
+ margin-bottom: 5px !important;
+}
+
+.article-intro-image img {
+  width: 200px !important;
+}
+
+.article-details,
+.article-body{
+  background-color: #fff;
+}
+
+.readmore a {
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: yellow;
+}
+
+#sp-secondheader {
+  max-height: 100px !important;
+ }
+
+#sp-top1, #sp-top2 {
+  max-height: 80px;
+  z-index: 100;
+}
+.custom_suche {
+  z-index: 100;
+}
+
+.login .form-group .btn {
+  background-color: #0088cc;
+}
+ .logout {
+  background-color: #fff;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+.logout-button .btn {
+ padding:4px;
+  background-color: #0088cc;;
+}
+
+.logout-button .btn:hover{
+  background-color: #1177cc;
+}
+
+.sppb-article-img-wrap img {
+  float:left;
+  margin-right: 5px;
+}
+
+.article-ratings-social-share {
+  display:none !important;
+}
+.content-links ul li {
+  border: 1px;
+  padding-right: 20px;
+  padding-top: 10px;
+  background-color: #ddd;
+}
+
+.article-details,
+.article-body{
+  border: 1px dotted grey;
+  padding: 20px;
+}
+
+div[itemprop="articleBody"] a {
+   color: red;
+  font-size: 1.0em;
+}
+
+
+.avVideo {
+  max-height: 300px;
+}
+
+#toftue_pic_1 img{
+width:100px;
+height:149px;
+}
+
+#toftue_pic_2 img{
+position:relative;
+top:-80px;
+left:80px;
+width:170px;
+height:127px;
+}
+
+ #toftue_text { 
+position:relative;
+top:-310px;
+left:140px;
+}
+
+
+img.sppb-img-responsive {
+  max-height: 80px;
+ } 
+ 
+.anne-abschied {
+  height: 100% !importend;
+}
+
+.advent{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width:100%;
+  height:100%;
+  grid-gap: 10px;
+  padding:10px;
+  background-image: url("/images/verein/advent-back-1.png");   
+}
+
+.advent-tag {
+  border:1px solid blue;
+  background-image: url("/images/verein/advent-door.png");
+
+}
+
+.advent-tag-high {
+  border:1px solid blue;
+  background-image: url("/images/verein/advent-door-open.png"); 
+  background-color: yellow;   
+ 
+}
+
+.ad-item1 {
+  color:#09f46f;
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+
+/*
+the basic attributes for articles
+*/
+
+div[itemprop="articleBody"] p {
+  font-size: 0.8rem;
+  font-style:normal;
+}
+
+.article-details .article-header h1, .article-details .article-header h2 {
+   color:#0088cc;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+.article-intro-image img {
+  width:60%;
+}
+
+
+.article-full-image {
+  margin:8px;
+}
+
+.sppb-article-introtext p {
+  font-size: 5rem;
+}
+
+/*
+end of the basic attributes for articles
+*/
+
+
+#sp-bottom {
+  padding:12px;
+  margin:0;
+  background-color: #ddd;
+}
+
+#sp-bottom1,
+#sp-bottom2{
+  width:50%;
+}
+
+#impressum h1 {
+  color:#0088cc;
+font-size:1.5rem;
+}
+
+#sp-top1 { 
+  font-size: 0.9rem;
+  font-style: italic;
+  color:wheat;
+}
+
+#Datenschutz {
+font-size: 0.9rem;  
+}
+#Datenschutz h1 {
+  color: #0088cc;
+  font-size: 2rem;
+}
+
+
+
+#impressum {
+font-size:0.9rem;
+}
+#impressum h2,
+#impressum h1 {
+color:#0a1c54;
+background-color:#ddd;
+}
+
+
+#impressum h2 {
+font-size:1.1rem;}
+
+#impressum a {
+font-weight:bold;
+font-size:0.9em;
+}
+
+#js-meganav-footer li a {
+  color:#0088cc;
+  font-weight: bold;
+}
+
+#js-meganav-footer li a:hover {
+  background-color: #0088cc;
+}
+
+
+/*
+ Sitemenue Parameter
+*/
+
+.menuact_menu {
+  font-weight: bold;
+    color: #0088cc;
+	 background-color: #f9d39a;
+}
+
+.menuact_menu 
+.nav-header {
+  font-size: 1.5em;
+}
+
+.menuact_menu li a {
+    font-size: 0.8em;
+}
+
+.gdv_menu .nav-header {
+  color:green;
+  font-size:1em;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.menu-separator {
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.projekt_menu,
+.vereins_menu,
+.repair_menu,
+.gdv_menu
+.menuact_menu {
+  font-size: 0.8rem; 
+}
+
+.projekt_menu .menu li a:hover,
+.vereins_menu .menu li a:hover,
+.repair_menu .menu li a:hover,
+.gdv_menu .menu li a:hover,
+.menuact_menu .menu li a:hover {
+  color:white;
+  font-weight: bold;  
+}
+
+.projekt_menu {
+   background-color: #f9d39a;
+}
+.projekt_menu .menu li a:hover{
+  background-color: #c9a875;
+
+}
+
+
+#sp-position8 {
+  margin-top:10px;
+}
+
+
+#js-mainnav .font-item-menu {
+  height:40px;
+  padding-top:5px;  
+}
+
+.pro-menu-top .menu li,
+.gdv-menu-top .menu li,
+.rep-menu-top .menu li,
+.verein-menu-top .menu li {
+  float: left;
+  font-size: 0.8rem;
+  font-weight: bold;
+     list-style: none;
+     margin-right: 3px;  
+     padding: 3px 05px;
+}
+
+.pro-menu-top .menu li a,
+.gdv-menu-top .menu li a,
+.rep-menu-top .menu li a,
+.verein-menu-top .menu li a{
+   padding:3px;
+  color:#000;
+}
+
+.verein-menu-top .menu li a {
+  background-color: #ddd;
+}
+
+.verein-menu-top .menu li a:hover {
+  background-color: #0088cc;
+    color:#fff;
+}
+
+.gdv-menu-top .menu li a {
+  background-color:#ccdeb3;
+}
+
+.gdv-menu-top .menu li a:hover {
+  background-color:#8fbc4f;
+  color:#fff;
+  }
+
+.rep-menu-top .menu li a {
+  background-color:#bbe6f7;
+}
+
+.rep-menu-top .menu li a:hover {
+  background-color:#0088cc;
+  color:#fff;
+  }
+
+.vereins_menu {
+  background-color: #ddd;
+  }
+
+.vereins_menu li a:hover{
+    background-color: #0088cc;
+	  color:white !important;
+	  font-weight:bold;
+}
+
+.vereins_menu .megamenu .level1 .menu-title:hover {
+  color:#0088cc;
+  font-weight: bold;
+}
+
+
+.vereins_menu .menu .menu-child li {
+  text-indent: 20px;
+  font-size: 0.8em;
+  font-weight: bold;    
+  padding:0;
+  margin:0;
+}
+
+.vereins_menu .menu .menu-child a {
+  font-style: normal;
+}
+
+.repair_menu {
+   background-color: #bbe6f7;   
+}
+
+.repair_menu .menu li a:hover{
+    background-color: #0088cc;
+
+}
+
+.gdv_menu {
+  background-color: #ccdeb3;
+
+}
+
+.gdv_menu .menu li a:hover{
+  background-color: #8fbc4f;
+
+}
+
+  .menutiny-horz,
+  .menugigu-horz{
+    display:grid;
+	grid-template-columns:auto auto auto auto auto;
+    grid-gap: 10px; 
+    height:100%;
+    background-color: #ddd;
+    padding:10px;
+    margin:0;
+   
+}
+ul.menutiny-horz,
+ul.menugigu-horz {
+   list-style: none;
+}
+
+ul.menutiny-horz li a img {
+    width:100%;
+    border: 1px solid grey;
+	box-shadow: 5px 5px 5px #a1a3b8;
+	border-radius: 5px;
+  }
+  
+
+ul.menugigu-horz li a img  {
+    width:60%;
+    border: 1px solid grey;
+	box-shadow: 5px 5px 5px #a1a3b8;
+	border-radius: 5px;
+  max-height: 100py;
+  }
+
+.btn-toolbar .btn-primary{
+    background-color: #1a4493;
+  color: white;
+  	border:1px ;
+}
+
+.btn-primary{
+    background-color:transprent;
+  border:1px ;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: blue;
+}
+
+._mobile-home {
+  z-index: 100;
+}
+
+.customforum-footer {
+  width:180px;
+  margin-top:5px;
+}
+.customforum-footer img{
+  width:90%;
+}
+
+.menusitemenu {
+  min-height: 400px;
+  max-width: 200px;
+}
+.sppb-addon-article {
+  height: 300px;
+  background-color: #fff;
+  padding:5px;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px #a1a3b8;
+}
+
+.sppb-addon-article h3 {
+  font-size: 1.2rem;
+}
+
+.sppb-addon-article p {
+    font-size: 0.8rem;
+}
+.tinymenu,
+gigumenu {
+  width:100px;
+}
+
+
+.menusitemenu ,
+.tinymenu ul,
+.gigumenu ul{
+  list-style: none;
+  padding:5px 0px 5px ;
+}
+
+.menusitemenu img {
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px #a1a3b8;
+  border-radius: 5px;
+  
+}
+
+.menusitemenu li ,
+.tinymenu li,
+.gigumenu li{
+   margin-bottom: 15px;
+}
+
+#sp-header {
+  margin-top:10px;
+  margin-bottom:10px;
+  border:2px solid #000;
+}
+.custom_forum {
+  display:grid;
+  justify-content:end;
+  align-content: center;
+  height:6rem; 
+}
+
+.custom_slogan {
+  box-shadow: 5px 5px 5px #ddd;
+    border-radius: 25px;  
+}
+
+.custom_slogan img {
+   max-height: 80px;
+}
+
+#sp-top2 .sp-column{
+  display: grid;  
+  grid-gap: 10px;
+  grid-template-columns:  auto auto;
+  justify-content: end;
+  font-size: 0.6rem;
+ 
+}
+
+.custom_home {
+	display:grid;
+   justify-content:center;
+}
+
+.custom_mobile-home {
+  padding-left: 15px;
+  color:#0088cc;
+
+}
+
+.custom_mobile-home img {
+  width:30%;
+  box-shadow: 3px 3px 5px #444;
+  border-radius: 10px;
+  
+}
+
+.custom_suche {
+  grid-column-start: 1;
+  margin-top: 18px;  
+  width:90%;
+  float:right;
+ 
+}
+.custom_suche input {
+  font-size: 0.7rem;
+  height: 1.5rem;  
+   box-shadow: 3px 3px 5px #444;
+  border-radius: 10px;
+}
+
+
+.menusitemenu li {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0088cc;
+  margin:0 10px;  
+  text-decoration-line: underline;
+}
+
+
+
+.menusitemenu {
+    display: grid;
+    justify-content: start;
+    grid-gap: 10px;
+    width:250%;
+  }
+
+#sp-main-body {
+  padding-top:1rem;
+}
+#sp-main-body .container .container-inner {
+  background-color: #efefef;
+  padding:1rem;
+}
+
+#sp-secondheader {
+  background-image: url(../images/header_medium.png) ;  
+  background-repeat: repeat-x;
+    height: 50px;
+}
+
+#sp-footer {
+  background-color: #034869;
+}
+#sp-breadcrumbs {
+  padding-top:0.3rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 0.7rem;
+  background-color: #d8e5e7;
+  height: 3rem; 
+  
+}
+
+
+
+#js-meganav-wohnprojekt {
+    background-color: #fff;
+}
+.pro-menu-top i {
+  background-color: #f9d39a;
+}
+.pro-menu-top li a{
+  background-color: #f9d39a;
+  color:#000;
+  font-weight: bold;
+}
+
+.pro-menu-top li a:hover {
+  background-color: #c9a875;
+  color: #fff !important;
+}
+
+.pro-menu-top .childcontent li a {
+  background-color: #f9d39a !important;
+  color: #000 !important;;
+}
+.pro-menu-top .childcontent li a:hover {
+   background-color: #c9a875 !important;
+  color: #fff !important;
+}
+
+
+#js-meganav-verein {
+    background-color: #fff;
+}
+
+.verein-menu-top i {
+  background-color: #ddd;
+}
+.verein-menu-top li a{
+  background-color: #ddd;
+  color:#000;
+  font-weight: bold;
+}
+
+.verein-menu-top li a:hover {
+  background-color: #0088cc;
+  color: #fff !important;
+}
+
+.verein-menu-top .childcontent li a {
+  background-color: #ddd !important;
+  color: #000 !important;;
+}
+.verein-menu-top .childcontent li a:hover {
+   background-color: #0088cc !important;
+  color: #fff !important;
+}
+
+#js-meganav-gdv {
+    background-color: #fff;
+}
+
+.gdv-menu-top i {
+  background-color: #ccdeb3;
+}
+
+.gdv-menu-top li a{
+  background-color: #ccdeb3;
+  color:#000;
+  font-weight: bold;
+}
+
+.gdv-menu-top li a:hover {
+  background-color: #8fbc4f;
+  color: #fff !important;
+}
+
+.gdv-menu-top .childcontent li a {
+  background-color: #ccdeb3 !important;
+  color: #000 !important;;
+}
+.gdv-menu-top .childcontent li a:hover {
+   background-color: #8fbc4f !important;
+  color: #fff !important;
+}
+
+
+#js-meganav-repair {
+    background-color: #fff;
+}
+
+.rep-menu-top i {
+  background-color: #bbe6f7;
+}
+
+.rep-menu-top li a{
+  background-color: #bbe6f7;
+  color:#000;
+  font-weight: bold;
+}
+
+.rep-menu-top li a:hover {
+  background-color: #0088cc;
+  color: #fff !important;
+}
+
+.rep-menu-top .childcontent li a {
+  background-color: #bbe6f7 !important;
+  color: #000 !important;;
+}
+.rep-menu-top .childcontent li a:hover {
+   background-color: #0088cc !important;
+  color: #fff !important;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .customverein-header a img,
+  .custompro-logo a img,
+  .customrik-logo a img,
+  .customgdv-logo a img,
+  .customrep-logo a img {
+    width: 30%;
+  }
+ 
+  .custom_mobile-home {
+  margin-left: 100px;
+ }
+  
+  .customforum-footer {
+    display: none;
+  }
+  .customrik-logo {
+    width: 80px;
+  }
+  
+  .customgdv-logo a img {
+    width: 30%;
+  }
+  
+  .advent{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width:100%;
+  grid-gap: 10px;
+  padding:10px;
+  background-image: url('../../../images/verein/advent-back-1.png');   
+}
+
+.advent-tag {
+  border:1px solid blue;
+  background-image: url("/images/verein/advent-door.png");
+width:60%;
+height:70%;
+  
+}
+
+.advent-tag-high {
+  border:1px solid blue;
+  background-image: url("/images/verein/advent-door-open.png"); 
+  background-color: yellow;   
+ width:60%;
+height:70%;
+}
+.ad-item1 {
+  color:#09f46f;
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+  #sp-top1,
+  #sp-top2 {
+    width:auto;
+  }
+  
+   ul.menugigu-horz li a img  {
+    width:30%;
+    border: 1px solid grey;
+	box-shadow: 5px 5px 5px #a1a3b8;
+	border-radius: 15px;
+  }
+
+  .projekt_menu,
+  .gdv_menu,
+  .repair_menu,
+  .rik_menu,
+  .vereins_menu{
+    display:none;
+  } 
+
+  .custom_home, .custom_suche{
+    display: none;
+  }
+  
+  .sp-module {
+    height:10px;   
+  }
+  
+  .custom_slogan {
+    width:70%;
+  }
+ .custom_mobile-home img {
+  width:20%;  
+}
+  
+    
+  .megacss {
+    max-height:35px;
+     border: 1px dotted;
+  }
+  
+    #sp-breadcrumbs {
+    height:20px;
+    font-size: 0.5rem;
+    padding:0;
+    margin:0;
+  }
+  .sppb-addon .sppb-addon-module .jubel{
+    width:60%;
+  }
+  .houses ,
+  .menusitemenu
+  {
+    display:none;
+  }  
+     #jubel_houses_row {
+     display: none;
+   }
+
+
+
+  .tinymenu {
+    background-color: transparent;    
+  }
+ 
+    /*
+the basic attributes for articles
+*/
+
+div[itemprop="articleBody"] p {
+  font-size: 0.6rem;
+  font-style:normal;
+}
+
+.article-details .article-header h1, .article-details .article-header h2 {
+   color:#0088cc;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.0rem;
+}
+
+.article-intro-image img {
+  width:60%;
+}
+
+.article-introtext p {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  }
+
+.article-full-image {
+  margin:8px;
+}
+
+  .sppb-addon-article h3 {
+  font-size: 0.9rem;
+}
+
+.sppb-addon-article p {
+    font-size: 0.8rem;
+  font-style:normal;
+}
+
+/*
+end of the basic attributes for articles
+*/
+  
+}
+
+.forum-footer {
+  width:100%;
+  float:left;
+}
+
+.footer_menu {
+  width:100%;
+  float:left;
+}
+
+.footer_menu ul li {
+  float:left;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 601px) and (max-width: 768px)
+ {
+     .customrik-logo {
+    width: 80px;
+  }
+   
+  ul.menugigu-horz li a img  {
+    width:35%;
+    border: 1px solid grey;
+	box-shadow: 5px 5px 5px #a1a3b8;
+	border-radius: 15px;
+  }
+   
+   .projekt_menu,
+   .repair_menu,
+   .gdv_menu,
+   .rik_menu,
+   .vereins_menu {
+    display:none;
+  } 
+
+  #sp-top1,
+  #sp-top2 {
+    width:50%;
+  }
+
+   .menusitemenu {
+   display:none;
+  }   
+     
+   .custom_home  {
+    display: none;
+  }
+   
+   
+   #jubel_houses_row {
+     display: none;
+   }
+   
+   #jubel_tinymenu_row .sppb-col-md-8 {
+     display: grid;
+     width:70%;   
+     margin:auto;
+   }
+   
+   #jubel_tinymenu_row .sppb-col-md-4{
+     width:30%;
+     display: grid;
+     justify-content: end;
+     margin:auto;
+     
+   }
+   
+   .custom_suche { 
+  	margin-top: 3px;   
+	}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+     .projekt_menu,
+   .repair_menu,
+   .gdv_menu,
+  .vereins_menu{
+    display:none;
+  } 
+  
+  
+  ul.menugigu-horz li a img  {
+    width:35%;
+    border: 1px solid grey;
+	box-shadow: 5px 5px 5px #a1a3b8;
+	border-radius: 15px;
+  }
+  
+  .custom_home {
+    display: none;
+  }
+  
+    #sp-top2 {
+  width:50%;
+  }
+  #sp-top1 {  
+    width:50%;
+  }
+  
+
+  .wrapperjubel {
+    width:90%;
+  }
+  .tinymenu{
+    width:70%;
+  }
+
+  
+  #jubel_tinymenu_row .sppb-col-md-8 {
+    border: 1px dotted green;
+     display: grid;
+     width:70%;
+     margin:auto;
+  }
+    #jubel_tinymenu_row .sppb-col-md-4 {
+      width:30%;
+     display: grid;
+     justify-content: end;
+ 
+  }
+   #jubel_houses_row {
+     display: none;
+   }
+  
+     .menusitemenu {
+     display: none;
+   }
+  
+     .custom_suche { 
+  	margin-top: 3px;   
+	}
+
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 993px) {
+  .pro-menu-top,
+  .rep-menu-top,
+  .gdv-menu-top,
+  .rik-menu-top,
+  .verein-menu-top{
+    display: none;
+  }
+  
+ 
+  #sp-top2  .sp-column {
+     grid-template-columns: auto;
+   justify-content: center;
+  }
+  .custom_suche {     
+    width: 150%;
+    margin-left: 0;
+   }
+  .custom_suche .form-control {
+    width:200px;
+  }
+  
+    .custom_mobile-home{
+    display:none;
+  }
+ 
+  #jubel_tinymenu_row {
+    display:none;
+  }
+  
+
+}
+
+
+

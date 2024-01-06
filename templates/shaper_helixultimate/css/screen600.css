@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21.03.2023, 12:15:49
+    Author     : Klaus Wahl
+*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+         
+    #sp-footer {
+     font-size: 0.7em; 
+    }
+    
+
+#home-row-2 img,
+#home-row-3 img,
+#home-row-4 img {
+    max-width:130px;
+}
+
+#home-row-2 p,
+#home-row-3 p,
+#home-row-4 p {
+   font-size: 0.7em;
+    
+}
+    
+    #home-row-verein{
+     font-size: 0.7em;
+  }
+  
+    #home-row-1 img{
+        max-width: 150px;
+    }
+
+.site-menu img {
+  max-height: 20px;
+  width: auto;
+  border: 1px dotted black;
+}
+}

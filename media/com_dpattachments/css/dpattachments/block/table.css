@@ -1,0 +1,97 @@
+/**
+ * @package   DPAttachments
+ * @copyright Copyright (C) 2018 Digital Peak GmbH. <https://www.digital-peak.com>
+ * @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+ */
+.dp-table {
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+	border: 1px solid #cbcbcb;
+	width: 100%;
+}
+.dp-table caption {
+	color: #000;
+	padding: 1em 0;
+	text-align: center;
+}
+.dp-table td, .dp-table th {
+	border-left: 1px solid #cbcbcb;
+	border-width: 0 0 0 1px;
+	font-size: inherit;
+	margin: 0;
+	overflow: visible;
+	padding: 0.4em 1em;
+	text-align: center;
+}
+.dp-table td:first-child, .dp-table th:first-child {
+	border-left-width: 0;
+}
+.dp-table thead {
+	text-align: left;
+	vertical-align: bottom;
+}
+.dp-table td {
+	background-color: transparent;
+}
+.dp-table .dp-cell-price {
+	text-align: right;
+}
+.dp-table-odd td {
+	background-color: #f2f2f2;
+}
+.dp-table tr:nth-child(2n-1) td {
+	background-color: #f2f2f2;
+}
+.dp-table td, .dp-table th {
+	border-bottom: 1px solid #cbcbcb;
+}
+.dp-table tbody > tr:last-child {
+	border-bottom-width: 0;
+}
+@media screen and (max-width: 767px) {
+	.dp-table,
+.dp-table thead,
+.dp-table tbody,
+.dp-table th,
+.dp-table td,
+.dp-table tr {
+		display: block;
+	}
+	.dp-table thead {
+		display: none;
+	}
+	.dp-table tr {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.dp-table td {
+		border: none;
+		position: relative;
+		padding-left: 50%;
+		text-align: left;
+	}
+	.dp-table td:before {
+		content: attr(data-column);
+		position: absolute;
+		left: 10px;
+		padding-right: 10px;
+		font-weight: bold;
+	}
+	.dp-table td,
+.dp-table th {
+		box-sizing: border-box;
+		border-bottom: 0;
+		text-align: left !important;
+	}
+	.dp-table td > div,
+.dp-table th > div {
+		text-align: left;
+	}
+}
+
+/*# sourceMappingURL=table.css.map */

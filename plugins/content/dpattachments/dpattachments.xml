@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" group="content" method="upgrade">
+	<name>plg_content_dpattachments</name>
+	<author>Digital Peak</author>
+	<creationDate>23 Mar 2023</creationDate>
+	<copyright>(C) 2013 Digital Peak GmbH</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@digital-peak.com</authorEmail>
+	<authorUrl>joomla.digital-peak.com</authorUrl>
+	<version>5.1.5</version>
+	<description>PLG_CONTENT_DPATTACHMENTS_XML_DESCRIPTION</description>
+	<namespace path="src">DigitalPeak\Plugin\Content\DPAttachments</namespace>
+	<files>
+		<folder>forms</folder>
+		<folder>language</folder>
+		<folder plugin="dpattachments">services</folder>
+		<folder>src</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="cat_ids" type="sql" multiple="true" translate="true"
+					query="SELECT id, concat(title, ' [', extension, ']') as title FROM `#__categories` WHERE `published` = 1 and id > 1"
+					key_field="id" value_field="title" layout="joomla.form.field.list-fancy-select"
+					label="JGLOBAL_CHOOSE_CATEGORY_LABEL" description="JGLOBAL_CHOOSE_CATEGORY_DESC"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

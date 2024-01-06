@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+ 
+	<name>COM_MINIORANGE_IMPORTEXPORTUSERS</name>
+	<creationDate>May 2022</creationDate>
+	<author>miniOrange Security Software Pvt. Ltd.</author>
+	<authorEmail>info@xecurify.com</authorEmail>
+	<authorUrl>http://miniorange.com</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<version>21.2</version>
+	<description></description>
+ 
+	<install> <!-- Runs on install -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	<update>
+        <schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+    </update>
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu link="option=com_miniorange_importexportusers&amp;view=accountsetup" view="accountsetup" alt="Joomla Import Export Users">COM_MINIORANGE_MENU_PLUGIN_TITLE</menu>
+		<submenu>
+			<menu link="option=com_miniorange_importexportusers&amp;view=accountsetup&amp;tab-panel=account">COM_MINIORANGE_PAGE_ACCOUNT_SETUP</menu>
+			<menu link="option=com_miniorange_importexportusers&amp;view=accountsetup&amp;tab-panel=exportsettings">COM_MINIORANGE_EXPORT_USERS</menu>
+			<menu link="option=com_miniorange_importexportusers&amp;view=accountsetup&amp;tab-panel=importsettings">COM_MINIORANGE_IMPORT_USERS</menu>
+			<menu link="option=com_miniorange_importexportusers&amp;view=accountsetup&amp;tab-panel=cronimport">COM_MINIORANGE_CRON_IMPORT</menu>
+			<menu link="option=com_miniorange_importexportusers&amp;view=accountsetup&amp;tab-panel=license_page">COM_MINIORANGE_IMPORT_UPGRADE</menu>	
+		</submenu>
+		
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>miniorange_importexportusers.php</filename>
+			<filename>controller.php</filename>
+			<!-- helper files section -->
+			<folder>assets</folder>
+			<!-- helper files section -->
+			<folder>helpers</folder>
+			<!-- SQL files section -->
+			<folder>sql</folder>
+			<!-- models files section -->
+			<folder>models</folder>
+			<!-- views files section -->
+			<folder>views</folder>
+			<!-- controllers files section -->
+			<folder>controllers</folder>
+		</files>
+		<languages folder="admin/language">
+        	<language tag="en-GB">en-GB/en-GB.com_miniorange_importexportusers.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_miniorange_importexportusers.sys.ini</language>
+		</languages>
+	</administration>
+	<updateservers>
+		<server type="extension" priority="1" name="ImportExportUsers">http://miniorange.com/joomla_importexportusers_update.xml</server>
+	</updateservers>
+</extension>

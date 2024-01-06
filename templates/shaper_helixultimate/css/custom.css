@@ -1,0 +1,447 @@
+:root {
+  --vereinfarbe: #ebddc3;  
+  --gemeinfarbe: #94b6d2;
+    --repairfarbe: #d8b25c;
+    --gartenfarbe: #dd8047;
+    --rikschafarbe: #968c8c;
+  --biotopfarbe: #a5ab81;
+    --backfarbe: #c7e9c5;
+}
+/* mouse-memoirs-regular - latin */
+@font-face {
+  font-family: 'Mouse Memoirs';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/mouse-memoirs-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/mouse-memoirs-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/mouse-memoirs-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/mouse-memoirs-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/mouse-memoirs-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/mouse-memoirs-v13-latin-regular.svg#MouseMemoirs') format('svg'); /* Legacy iOS */
+}
+
+.sp-megamenu-parent > li.active > a:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+}
+
+.body-wrapper {
+  margin: auto;
+  max-width: 1400px;
+}
+.Home-Carousel a {
+  font-size: 1.4em;
+  color: #333444;;
+}
+
+.Home-Carousel .sppb-articles-carousel-introtext {
+  font-size: 0.9em;
+}
+
+.sppb-carousel-extended-content-wrap div{
+  margin-top: 170px;
+  color: red;
+  font-weight: bold;
+  font-size: 2em;
+  background-color: #ddd; 
+  
+}
+
+.sppb-articles-carousel-meta span{
+  font-size: 0.7em;
+  color:blue;
+}
+
+#sp-top2 li a{
+  color: #ffffff;
+  font-size: 0.8em;
+}
+
+ #sp-top1{
+  color: #ffffff;
+  font-size: 0.9em;
+   padding-top: 4px;
+}
+
+ #sp-top2 span {
+    color:white;
+    
+  }
+
+#sp-position8 div {
+ float:left;
+}
+.garten_slogan {
+  padding-left:80px;
+}
+
+#sp-main-body {
+    background-color: #f1f3f2;
+}
+
+#sp-secondheader,
+#sp-footer{
+  background-color: #034869;
+}
+
+#sp-secondheader {
+  height:30px;
+}
+
+#sp-position8 {
+  max-block-size: 70px;
+}
+
+#sp-position8 img {
+    width:180px; /* you can use % */
+    height: auto;
+}
+
+.page-2 {
+  margin-top:50px;
+}
+
+#sp-sitemenue,
+.page-header h1{
+  display: none;
+}
+.sppb-articles-carousel-img,
+.sppb-articles-carousel-meta-category{
+    display:none;
+}
+
+.sp-module-content-top {
+  background-color:  #f1f3f2;;
+  max-width: 1400px;
+     margin: auto;
+    display: grid;
+   grid-template-columns: repeat(auto-fill, 40px);
+     grid-gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+    
+}
+
+.sp-module-content-top img {
+  max-width: 250px;
+  box-shadow: 2px 5px 2px #ddd;
+  padding-left: 5px;
+}
+.sp-module-content-top p {
+  font-size: 0.9em;
+}
+
+.sp-module-content-top h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #0c76c4
+    
+}
+
+
+#home-row-2 img,
+#home-row-3 img,
+#home-row-4 img {
+    max-width:250px;
+}
+
+#home-row-2 p,
+#home-row-3 p,
+#home-row-4 p,
+#home-row-3 li,
+#home-row-2 li{
+   font-size: 0.9em;
+}
+
+
+.home-header-text {
+    grid-column: 1/28;
+    grid-row: 2/2;
+    text-align: center;
+}
+
+ .home-header-text { 
+    font-size: 1.3em;
+     font-weight: bold;
+       color:#999;
+    }
+
+
+.home_articles,
+.home_header {
+  font-size: 0.7em;      
+}
+
+.home-rikscha-text p,
+.home-rikscha-text h3{
+  color: #fff;
+}
+
+.site-menu{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.site-menu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.site-menu img {
+  max-height: 60px;
+  width: auto;
+  border: 1px dotted black;
+}
+
+  .partner-menu img {
+ height:30px; /* you can use % */
+ width: auto;
+ margin: 5px;
+ border: 1px solid;
+}
+
+ 
+.partner-menu {
+    background-color: #ccc;
+}
+
+.projekt_menu,
+.verein_menu,
+.repair_menu,
+.rikscha_menu,
+.garten_menu,
+.biotop_menu,
+.menuact_menu {
+  font-size: 0.8rem; 
+      font-weight: bold;
+}
+
+.projekt_menu .menu li a:hover,
+.verein_menu .menu li a:hover,
+.repair_menu .menu li a:hover,
+.rikscha_menu .menu li a:hover,
+.biotop_menu .menu li a:hover,
+.garten_menu .menu li a:hover,
+.menuact_menu .menu li a:hover {
+  color:black;
+  background-color: #fff;
+  font-weight: bold;  
+}
+
+#home-row-2 {
+     background-color: var(--repairfarbe);
+}
+#home-row-3 {
+    background-color: var(--gartenfarbe);
+  color: white;
+}
+#home-row-4 {
+     background-color: var(--rikschafarbe);
+}
+
+.projekt_menu {
+   background-color: var(--gemeinfarbe);
+}
+
+.verein_menu {
+   background-color: var(--vereinfarbe);
+}
+
+
+.garten_menu {
+   background-color: var(--gartenfarbe);
+}
+
+.biotop_menu {
+   background-color: var(--biotopfarbe);
+}
+
+.repair_menu {
+   background-color: var(--repairfarbe);
+}
+
+.rikscha_menu {
+   background-color: var(--rikschafarbe);
+}
+
+.article-list
+.article {
+  border-top: 1px solid black;
+}
+
+
+.article-list .article-introtext  {
+ font-size: 0.9em;
+  padding-top:5px:
+}
+
+.social-share-block {
+  display:none;
+}
+
+.article-header h2 a {
+  font-size: 1.2em;
+  font-weight: bold;  
+}
+
+.article-header h2 a:hover {
+   font-size: 1.4em;
+}
+
+.readmore a {
+  font-style: italic;
+  background-color: var(--backfarbe);
+}
+
+.jubi_pic img {
+  height: 250px;
+width: auto;
+}
+
+
+#sp-footer #sp-footer2 {
+  text-align: left;
+}
+
+#sp-footer ul.menu li a {
+  display: block;
+  color:#fff;  
+ text-decoration: none;
+}
+
+#sp-footer ul.menu li a:hover {
+  display: block;
+  color:#000;
+  font-weight: bold;
+  background-color: #ccc;
+  padding:3px;
+}
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21.03.2023, 12:15:49
+    Author     : Klaus Wahl
+*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+         
+    #sp-footer {
+     font-size: 0.7em; 
+    }
+    
+
+#home-row-2 img,
+#home-row-3 img,
+#home-row-4 img {
+    max-width:130px;
+}
+
+#home-row-2 p,
+#home-row-3 p,
+#home-row-4 p,
+   #home-row-3 li{
+   font-size: 0.7em;
+    
+}
+  
+    #home-row-verein h3,
+  #home-row-2 h3,
+#home-row-3 h3,  
+#home-row-4 h3 {
+   font-size: 1.2em;    
+}
+    
+    #home-row-verein{
+     font-size: 0.7em;
+  }
+  
+    #home-row-1 img{
+        max-width: 150px;
+    }
+    #home-row-4 {
+    min-height: 500px;
+  }
+  
+.site-menu img {
+  max-height: 20px;
+  width: auto;
+  border: 1px dotted black;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px)  {
+
+    #sp-footer {
+     font-size: 1.0em; 
+    }
+
+  #home-row-2 img,
+#home-row-3 img,
+#home-row-4 img {
+    max-width:140px;
+}
+
+  #home-row-verein p,
+#home-row-2 p,
+#home-row-3 p,
+#home-row-4 p,
+  #home-row-3 li{
+   font-size: 0.7em;
+    
+}
+    
+
+
+    #home-row-verein h3,
+  #home-row-2 h3,
+#home-row-3 h3,  
+#home-row-4 h3 {
+   font-size: 1.2em;
+    
+}
+  
+  #home-row-verein a,
+#home-row-2 a,
+#home-row-3 a,
+#home-row-4 a {
+   font-size: 1.7em;    
+}
+  
+    #home-row-4 {
+    min-height: 500px;
+  }
+  
+  
+      #repair-mail a{
+    font-size: 1.2em;
+  }
+  
+  
+  #sp-top1 div a img {
+    max-height: 58px;
+    width: auto;
+    
+  }
+  
+    #sp-top2 div ul li a {
+    color: black;
+  }
+  
+.site-menu img {
+  max-height: 30px;
+  width: auto;
+  border: 1px dotted black;
+}
+.site-menu img {
+  max-height: 40px;
+  width: auto;
+  border: 1px dotted black;
+}
+}

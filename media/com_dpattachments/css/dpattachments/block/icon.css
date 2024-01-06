@@ -1,0 +1,13 @@
+/**
+ * @package   DPAttachments
+ * @copyright Copyright (C) 2018 Digital Peak GmbH. <https://www.digital-peak.com>
+ * @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+ */
+.dp-icon svg {
+	fill: currentColor;
+	width: 1em;
+	height: 1em;
+	vertical-align: -2px;
+}
+
+/*# sourceMappingURL=icon.css.map */
